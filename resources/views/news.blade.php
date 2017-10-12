@@ -88,8 +88,8 @@
             <a href="https://laravel-news.com">News</a>
             <a href="https://forge.laravel.com">Forge</a>
             <a href="https://github.com/laravel/laravel">GitHub</a>
-            <input type="button" value="home" onclick="location.href='home.blade.php'">
-            <input type="button" value="about" onclick="location.href='about.blade.php'">
+            <input type="button" value="home" onclick="location.href='{{rount(home.index)}}'">
+            <input type="button" value="about" onclick="location.href='{{rount(about.index)}}'">
         </div>
     </div>
 </div>

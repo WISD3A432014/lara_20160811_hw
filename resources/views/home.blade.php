@@ -88,8 +88,8 @@
             <a href="https://laravel-news.com">News</a>
             <a href="https://forge.laravel.com">Forge</a>
             <a href="https://github.com/laravel/laravel">GitHub</a>
-            <input type="button" value="about" onclick="location.href='{{rount('about.index')}}'">
-            <input type="button" value="news" onclick="location.href='{{rount('news.index')}}'">
+            <input type ="button" onclick="javascript:location.href='{{rount('about.index')}}'" value="關於"></input>
+            <input type ="button" onclick="javascript:location.href='{{rount('news.index')}}'"value="消息"></input>
         </div>
     </div>
 </div>

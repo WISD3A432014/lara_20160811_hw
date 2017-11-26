@@ -25,12 +25,12 @@
     //return view('home');
 //}]);
 
-//Route::get('/about',['as'=>'about.index',function(){
-    //return view('about');
-//}]);
-//Route::get('/news',['as'=>'news.index',function(){
-    //return view('news');
-//}]);
+Route::get('about',['as'=>'about.index',function(){
+    return view('about');
+}]);
+Route::get('news',['as'=>'news.index',function(){
+    return view('news');
+}]);
 
 Route::get('/',['as'=>'home.index','uses'=>
     'HomeController@index']);
